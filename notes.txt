@@ -1,0 +1,16 @@
+**** random ****
+
+#include <cstdlib>
+#include <ctime>
+
+srand(time(0)); // el nro sera dif cada ejecucion
+int nro = rand() % 16; // 0 - 15
+
+srand(time(NULL));
+int cant = 9 + rand() % (14 - 9); // 9 - 13
+
+**** string ****
+
+#include <string>
+
+std::string variable;
