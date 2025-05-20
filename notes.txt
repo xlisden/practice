@@ -14,3 +14,18 @@ int cant = 9 + rand() % (14 - 9); // 9 - 13
 #include <string>
 
 std::string variable;
+
+
+**** tipo de dato ****
+long long n = 0;
+
+printf("%lld ", n);
+
+**** memoria ****
+char* arreglo = "*****";
+&arreglo[4] -> imprime *
+&arreglo[3] -> imprime **
+&arreglo[2] -> imprime ***
+&arreglo[1] -> imprime ****
+&arreglo[0] -> imprime *****
+
